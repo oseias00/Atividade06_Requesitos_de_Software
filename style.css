@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #58cc02;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Telas */
+.tela-login, .tela-cursos, .tela-licao, .tela-resumo {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Elementos de Formulário */
+.tela-login input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #58cc02;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #4CAF50;
+}
+
+/* Estilos da Lição */
+.exercicio {
+    margin-bottom: 20px;
+}
+
+.pergunta {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.opcoes button {
+    background-color: #f0f0f0;
+    color: #333;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.opcoes button:hover {
+    background-color: #e0e0e0;
+}
+
+.feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.feedback.correto {
+    color: #58cc02;
+}
+
+.feedback.incorreto {
+    color: #ff4b4b;
+}
